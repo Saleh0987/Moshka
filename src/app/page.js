@@ -22,7 +22,7 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-[100vh] flex items-center justify-center overflow-hidden">
       {/* Animated Background with Darker Colors */}
       <div
         className="absolute inset-0 "
