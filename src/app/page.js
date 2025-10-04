@@ -6,7 +6,7 @@ export default function Home() {
       {/* Animated Background with Darker Colors */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-purple-900 to-red-900 animate-gradient bg-[length:400%_400%]"></div>
       {/* Blur Overlay */}
-      <div className="absolute inset-0 backdrop-blur-md bg-black bg-opacity-30"></div>
+      <div className="absolute inset-0 backdrop-blur-md bg-black/70 bg-opacity-30"></div>
       {/* Content */}
       <main className="relative z-10 flex flex-col items-center justify-center text-center gap-4">
         <h1
