@@ -43,13 +43,14 @@ export default function Home() {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-5 mt-4">
           <motion.button
+            onClick={handleDownloadAndView}
             whileHover={{scale: 1.08, y: -3}}
             whileTap={{scale: 0.95}}
             className="relative px-10 py-4 font-semibold text-lg text-white rounded-2xl 
             bg-gradient-to-r from-pink-600 via-red-600 to-orange-500 
             shadow-[0_4px_20px_rgba(255,80,80,0.4)]
             hover:shadow-[0_0_30px_rgba(255,80,100,0.8)]
-            transition-all duration-300 ease-in-out overflow-hidden"
+            transition-all duration-300 ease-in-out overflow-hidden animate-bounce"
             style={{fontFamily: "'Poppins', sans-serif"}}
           >
             <span className="relative z-10">Moshka Menu</span>
@@ -64,7 +65,7 @@ export default function Home() {
             bg-gradient-to-r from-pink-600 via-red-600 to-orange-500 
             shadow-[0_4px_20px_rgba(255,80,80,0.4)]
             hover:shadow-[0_0_30px_rgba(255,80,100,0.8)]
-            transition-all duration-300 ease-in-out overflow-hidden"
+            transition-all duration-300 ease-in-out overflow-hidden animate-pulse "
             style={{fontFamily: "'Poppins', sans-serif"}}
           >
             <span className="relative z-10">Moshka Offers</span>
